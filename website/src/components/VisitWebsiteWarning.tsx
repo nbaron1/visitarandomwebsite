@@ -19,15 +19,15 @@ export function VisitWebsiteWarning({ url, className }: Props) {
     }
 
     // Check if popup is necessary
-    const dontShowWarningAgain =
-      localStorage.getItem('dont-show-warning-again') === '1';
+    // const dontShowWarningAgain =
+    //   localStorage.getItem('dont-show-warning-again') === '1';
 
-    if (dontShowWarningAgain) {
-      window.open(url, '_blank');
-      return;
-    }
+    // if (dontShowWarningAgain) {
+    window.open(url, '_blank');
+    return;
+    // }
 
-    setIsOpen(true);
+    // setIsOpen(true);
   };
 
   const handleContinue = () => {
