@@ -60,7 +60,7 @@ function CTASection() {
         Visit a random website
       </button>
       <p className='text-gray-400 select-none'>
-        over 13,338,613 domains indexed
+        13,338,613 random websites indexed
       </p>
     </div>
   );
