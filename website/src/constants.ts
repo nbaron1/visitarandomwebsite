@@ -383,7 +383,7 @@ export const PLACEHOLDER_DOMAINS = [
 
 export const SEARCHING_TEXT = [
   'Finding you the perfect link',
-  'Searching URLS',
+  'Searching URLs',
 ];
 
 export const SPOTLIGHT_SIZE = 75;
